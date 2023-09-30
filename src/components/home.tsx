@@ -4,7 +4,7 @@ const Home = () => {
   return (
     <div className="home-page">
       <div className="center-section">
-        <img src="public\assets\testImageCopied.svg"></img>
+        <img src="public/assets/testImageCopied.svg"></img>
         <h4>Welcome to Internship Cell CET</h4>
         <button className="login-btn">
           <Link to={"/login"}>Login</Link>
@@ -23,7 +23,7 @@ const Home = () => {
               establishments.
             </p>
           </div>
-          <img src="public\assets\feature-7.jpg"></img>
+          <img src="public/assets/feature-7.jpg"></img>
         </div>
     </div>
   );
